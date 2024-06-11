@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compare Movies App</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id = "title">2023's Top Domestic Movies</div>
+    <div id="subtitle">Movies</div>
+    <div class="container">
+      <form id="add-movie-form">
+        <h2>Add a Movie</h2>
+        <label for="movie-name">Movie Title:</label>
+        <input type="text" id="movie-name" placeholder="Enter movie name" />
+    
+        <label for="critic-score">Critic Score:</label>
+        <input type="text" id="critic-score" placeholder="Enter critic score" />
+    
+        <label for="audience-score">Audience Score:</label>
+        <input type="text" id="audience-score" placeholder="Enter audience score" />
+    
+        <label for="domestic-gross-sales">Domestic Gross Sales:</label>
+        <input type="text" id="domestic-gross-sales" placeholder="Enter domestic gross sales" />
+    
+        <label for="genre">Genre:</label>
+        <select id="genre">
+            <option value="">Select a genre</option>
+            <option value="action">Action</option>
+            <option value="comedy">Comedy</option>
+            <option value="drama">Drama</option>
+        </select>
+    
+        <button type="submit">Add Movie</button>
+    </form>
+    <div id="display-movie">
+      <div class="movie-card">
+          <h2>Movie Title 1</h2>
+          <p>Movie details...</p>
+      </div>
+      <div class="movie-card">
+        <h2>Movie Title 1</h2>
+        <p>Movie details...</p>
+      </div>
+      <div class="movie-card">
+        <h2>Movie Title 1</h2>
+        <p>Movie details...</p>
+      </div>
+      <div class="movie-card">
+        <h2>Movie Title 1</h2>
+        <p>Movie details...</p>
+      </div>
+      <div class="movie-card">
+        <h2>Movie Title 1</h2>
+        <p>Movie details...</p>
+    </div>
+    <div class="movie-card">
+      <h2>Movie Title 1</h2>
+      <p>Movie details...</p>
+    </div>
+  </div>
+    </div>
+    
+
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
